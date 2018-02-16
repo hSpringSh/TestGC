@@ -1,3 +1,38 @@
 <resources>
     <string name="app_name">TestGC</string>
+
+
+    <string name="listing_py">
+abstract class Person {
+    \n
+\t private String name;
+\n
+\t public String getName() {\n
+\t \t return name;\n
+\t }\n
+\n
+\t public void setName(String name) {\n
+\t \t this.name = name;\n
+\t }\n
+}
+
+    </string>
+
+    <string name="AbstractionDescription">
+اصطلاح Abstraction (به معنی انتزاع) مفهومی برای مخفی کردن جزئیات داخلی کلاس و توصیف همه چیز به بیان ساده است.
+\n\n
+بعنوان مثال، یک متد که دو عدد صحیح را با هم جمع میکند، فرض کنید؛
+\n
+روش پردازش داخلی این متد از دنیای بیرون پنهان است.
+\n
+راه های زیادی برای دستیابی به Abstraction در برنامه نویسی شی گرا وجود دارد،
+مانند Encapsulation (به معنی کپسوله سازی)و Inheritance (به معنی ارث بری)
+\n\n
+یک برنامه جاوا نیز نمونه خوبی از Abstraction است.
+\n
+در اینجا جاوا از تبدیل یک عبارت ساده به زبان ماشین مراقبت می کند
+و جزئیات پیاده سازی داخلی را از دنیای بیرونی پنهان می کند.
+</string>
+
+
 </resources>
